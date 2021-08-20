@@ -8,7 +8,7 @@
 import Foundation
 
 
-class Logger {
+public class Logger {
 
     static var dateFormat = "yyyy-MM-dd HH:mm:ss.SSS"
     
