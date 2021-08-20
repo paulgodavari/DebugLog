@@ -32,7 +32,7 @@ public class Logger {
         return shortFile2
     }
     
-    class func log(_ message: String = "", fileName: String = #file, line: Int = #line, funcName: String = #function) {
+    public class func log(_ message: String = "", fileName: String = #file, line: Int = #line, funcName: String = #function) {
     #if DEBUG
         print("\(Date().toString()): \(shortName(filePath: fileName)) \(funcName):\(line) \(message)")
     #endif
